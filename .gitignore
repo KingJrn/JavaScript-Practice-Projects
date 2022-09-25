@@ -1,0 +1,6 @@
+# personal test folder
+test
+
+# Saas files and corresponding css map file
+*.scss
+*.map
