@@ -1,6 +1,9 @@
 # personal test folder
 test
 
+# temporal
+waveForm
+
 # Saas files and corresponding css map file
 *.scss
 *.map

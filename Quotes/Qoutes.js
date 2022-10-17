@@ -24,6 +24,7 @@ fetch("https://type.fit/api/quotes")
                 };
 
                 // Change the color of the media container
+                /* -------------- note: classes are based on bulma css classes -------------- */
                 themeColors = Array("has-background-primary", "has-background-link", "has-background-danger");
                 var randColor = Math.floor(Math.random() * themeColors.length); //Generate a random value from themeColors
 

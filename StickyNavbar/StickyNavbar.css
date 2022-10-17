@@ -1,0 +1,97 @@
+.navbar .navbar-end *:not(#home):hover {
+  color: #c0392b !important;
+  background-color: unset;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: unset;
+}
+
+.activeNavbar {
+  padding-block: 3px !important;
+  background-color: white !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.colorText {
+  color: black !important;
+}
+
+.mobile-menu {
+  background-color: inherit !important;
+  float: right;
+}
+
+.navbar {
+  padding-block: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .navbar-brand {
+  padding-left: 3.25rem;
+}
+.navbar .navbar-brand a {
+  color: white;
+  transition: color 1s;
+}
+.navbar .navbar-brand a:hover {
+  color: #c0392b !important;
+}
+.navbar .navbar-menu {
+  padding-right: 3.25rem;
+}
+.navbar .navbar-end a:nth-child(1) {
+  color: #c0392b;
+  background-color: unset;
+}
+.navbar .navbar-end * {
+  font-size: 1rem;
+  color: white;
+}
+.K-hero {
+  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+.K-hero::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.K-hero h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+}
+.K-hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.k-section h2,
+.k-section h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+.k-section .para p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}/*# sourceMappingURL=StickyNavbar.css.map */
